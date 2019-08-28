@@ -1,0 +1,24 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "cn.mezeron.ylh.mcdemo"
+    },
+    "cordova-plugin-meice-camera": {
+      "PHOTO_LIBRARY_USAGE_DESCRIPTION": "使用相册",
+      "CAMERA_LIBRARY_USAGE_DESCRIPTION": "使用相机",
+      "PACKAGE_NAME": "cn.mezeron.ylh.mcdemo"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-add-swift-support": {
+      "PACKAGE_NAME": "cn.mezeron.ylh.mcdemo"
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "_from": "cordova-plugin-meice-camera",
+  "_id": "cordova-plugin-meice-camera@1.1.0",
+  "_inBundle": false,
+  "_integrity": "sha1-O5VyMxR5YVJgFm5LW1jy0eZvb2A=",
+  "_location": "/cordova-plugin-meice-camera",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-meice-camera",
+    "name": "cordova-plugin-meice-camera",
+    "escapedName": "cordova-plugin-meice-camera",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npm.taobao.org/cordova-plugin-meice-camera/download/cordova-plugin-meice-camera-1.1.0.tgz",
+  "_shasum": "3b9572331479615260166e4b5b58f2d1e66f6f60",
+  "_spec": "cordova-plugin-meice-camera",
+  "_where": "/Users/yuting/workspace/mc-demo",
+  "author": {
+    "name": "ytt"
+  },
+  "bugs": {
+    "url": "https://github.com/happyi/cordova-plugin-meice-camera/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-meice-camera",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "美测 -  检测",
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "homepage": "https://github.com/happyi/cordova-plugin-meice-camera#readme",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-meice-camera",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/happyi/cordova-plugin-meice-camera.git"
+  },
+  "version": "1.1.0"
+}

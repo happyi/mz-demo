@@ -1,0 +1,65 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {
+      "*-Info.plist": {
+        "parents": {
+          "NSPhotoLibraryUsageDescription": [
+            {
+              "xml": "<string>使用相册</string>",
+              "count": 1
+            }
+          ],
+          "NSCameraUsageDescription": [
+            {
+              "xml": "<string>使用相机</string>",
+              "count": 1
+            }
+          ]
+        }
+      },
+      "config.xml": {
+        "parents": {
+          "/*": [
+            {
+              "xml": "<feature name=\"MCCameraSwiftPlugin\"><param name=\"ios-package\" value=\"MCCameraSwiftPlugin\" /></feature>",
+              "count": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "cn.mezeron.ylh.mcdemo"
+    },
+    "cordova-plugin-add-swift-support": {
+      "PACKAGE_NAME": "cn.mezeron.ylh.mcdemo"
+    },
+    "cordova-plugin-meice-camera": {
+      "PHOTO_LIBRARY_USAGE_DESCRIPTION": "使用相册",
+      "CAMERA_LIBRARY_USAGE_DESCRIPTION": "使用相机",
+      "PACKAGE_NAME": "cn.mezeron.ylh.mcdemo"
+    }
+  },
+  "dependent_plugins": {},
+  "modules": [
+    {
+      "id": "cordova-plugin-meice-camera.MCCameraSwiftPlugin",
+      "file": "plugins/cordova-plugin-meice-camera/www/McCarmera.js",
+      "pluginId": "cordova-plugin-meice-camera",
+      "clobbers": [
+        "window.MCCamera"
+      ]
+    }
+  ],
+  "plugin_metadata": {
+    "cordova-plugin-whitelist": "1.3.4",
+    "cordova-plugin-add-swift-support": "2.0.2",
+    "cordova-plugin-meice-camera": "1.1.0"
+  }
+}
