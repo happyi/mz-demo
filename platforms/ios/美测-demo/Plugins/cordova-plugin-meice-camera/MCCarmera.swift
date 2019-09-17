@@ -114,7 +114,7 @@ extension MCCameraSwiftPlugin: MCUIDelegate,MCShootVCDelegate {
     }
     
     func handelError(errMsg:String){
-        self.pluginResult = CDVPluginResult(status:CDVCommandStatus_ERROR,messageAs:"uploadFail->\(errMsg)")
+        self.pluginResult = CDVPluginResult(status:CDVCommandStatus_ERROR,messageAs:"\(errMsg)")
        
         self.commandDelegate.run {
             self.commandDelegate.send(self.pluginResult, callbackId: self.command?.callbackId)
