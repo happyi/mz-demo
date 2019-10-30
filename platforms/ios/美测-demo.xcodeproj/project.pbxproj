@@ -5,30 +5,29 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0207DA571B56EA530066E2B4 /* Images.xcassets */; };
+		0C5B976FF69D4FF8AB9BCDE3 /* MCCameraUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 262AEF40E0604AE2BCB278BE /* MCCameraUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1E37CB7D963C4F2AB525B269 /* MCCarmeraUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C75DA1DFF64EDF969FF30C /* MCCarmeraUI.swift */; };
+		2D7D39DE6C034F37B04DEAB7 /* left.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6A8B721CD3994C14A18F4235 /* left.mp3 */; };
 		301BF552109A68D80062928A /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; };
 		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
 		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
-		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
-		AF0F29024C1B401F8F64AD10 /* MCCarmera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F0647317344F58A81D1739 /* MCCarmera.swift */; };
-		1E37CB7D963C4F2AB525B269 /* MCCarmeraUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C75DA1DFF64EDF969FF30C /* MCCarmeraUI.swift */; };
-		CFFBB338BCEB4326B139DA3C /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = F22E1DB096D04B74B351F9E2 /* back.png */; };
 		35290F75D47B4A8B9C402B4C /* caramera.png in Resources */ = {isa = PBXBuildFile; fileRef = 4644C3A34DC246B6BD3AAB6B /* caramera.png */; };
 		366CB8B91D7F43B08A5A29B9 /* confirm.png in Resources */ = {isa = PBXBuildFile; fileRef = CEBCC52D06A44CBABDD37D4E /* confirm.png */; };
-		F6F4E30D526041A8B65D3613 /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = 48571642ECD448B29ADC05EE /* next.png */; };
-		A3C5AFA18747449292328914 /* reset.png in Resources */ = {isa = PBXBuildFile; fileRef = FC668ED047544ED891818808 /* reset.png */; };
-		D3C7B7A02D8541008056FDC3 /* init.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E4414263AD9645FAA43E99FE /* init.mp3 */; };
-		2D7D39DE6C034F37B04DEAB7 /* left.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6A8B721CD3994C14A18F4235 /* left.mp3 */; };
-		D9C3CDF40AA2469BA5775A2B /* right.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7DA756F0A5AE4A7582305ECE /* right.mp3 */; };
-		D17258D910EA4A92BEB74D94 /* mid.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B3E8D50ADADE48609064C9BE /* mid.mp3 */; };
+		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
 		6D2BCE73496143429D59F402 /* finished.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 928D134A52C1489E83E92E60 /* finished.mp3 */; };
-		7A6A0FE324C24750B77DBFFD /* MCCamera.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 829A6BDA0A9E4D20845DF92B /* MCCamera.framework */; };
 		962421E9A2C74522972F1F07 /* MCCamera.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 829A6BDA0A9E4D20845DF92B /* MCCamera.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		DEA7CF04C3E847449BCBC7EF /* MCCameraUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 262AEF40E0604AE2BCB278BE /* MCCameraUI.framework */; };
-		0C5B976FF69D4FF8AB9BCDE3 /* MCCameraUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 262AEF40E0604AE2BCB278BE /* MCCameraUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		A3C5AFA18747449292328914 /* reset.png in Resources */ = {isa = PBXBuildFile; fileRef = FC668ED047544ED891818808 /* reset.png */; };
+		AF0F29024C1B401F8F64AD10 /* MCCarmera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F0647317344F58A81D1739 /* MCCarmera.swift */; };
+		CFFBB338BCEB4326B139DA3C /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = F22E1DB096D04B74B351F9E2 /* back.png */; };
+		D17258D910EA4A92BEB74D94 /* mid.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B3E8D50ADADE48609064C9BE /* mid.mp3 */; };
+		D3C7B7A02D8541008056FDC3 /* init.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E4414263AD9645FAA43E99FE /* init.mp3 */; };
+		D9C3CDF40AA2469BA5775A2B /* right.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7DA756F0A5AE4A7582305ECE /* right.mp3 */; };
+		F6F4E30D526041A8B65D3613 /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = 48571642ECD448B29ADC05EE /* next.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,8 +61,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				70DC12DACCBE40278212652C /* MCCamera.framework in Embed Frameworks */,
-				9309D9C535784D78B19E5F8F /* MCCameraUI.framework in Embed Frameworks */,
 				962421E9A2C74522972F1F07 /* MCCamera.framework in Embed Frameworks */,
 				0C5B976FF69D4FF8AB9BCDE3 /* MCCameraUI.framework in Embed Frameworks */,
 			);
@@ -74,9 +71,11 @@
 
 /* Begin PBXFileReference section */
 		0207DA571B56EA530066E2B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "美测-demo/Images.xcassets"; sourceTree = SOURCE_ROOT; };
+		09F0647317344F58A81D1739 /* MCCarmera.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = MCCarmera.swift; path = "cordova-plugin-meice-camera/MCCarmera.swift"; sourceTree = "<group>"; };
 		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* 美测-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "美测-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		262AEF40E0604AE2BCB278BE /* MCCameraUI.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = MCCameraUI.framework; path = "美测-demo/Plugins/cordova-plugin-meice-camera/MCCameraUI.framework"; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		301BF52D109A57CC0062928A /* CordovaLib/CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
 		301BF56E109A69640062928A /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
@@ -87,26 +86,24 @@
 		3047A5101AB8059700498E2A /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-release.xcconfig"; path = "cordova/build-release.xcconfig"; sourceTree = SOURCE_ROOT; };
 		3047A5111AB8059700498E2A /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = build.xcconfig; path = cordova/build.xcconfig; sourceTree = SOURCE_ROOT; };
 		32CA4F630368D1EE00C91783 /* 美测-demo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "美测-demo-Prefix.pch"; sourceTree = "<group>"; };
+		4644C3A34DC246B6BD3AAB6B /* caramera.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = caramera.png; sourceTree = "<group>"; };
+		48571642ECD448B29ADC05EE /* next.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = next.png; sourceTree = "<group>"; };
+		6A8B721CD3994C14A18F4235 /* left.mp3 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = left.mp3; sourceTree = "<group>"; };
 		6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = CDVLaunchScreen.storyboard; path = "美测-demo/CDVLaunchScreen.storyboard"; sourceTree = SOURCE_ROOT; };
+		7DA756F0A5AE4A7582305ECE /* right.mp3 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = right.mp3; sourceTree = "<group>"; };
+		829A6BDA0A9E4D20845DF92B /* MCCamera.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = MCCamera.framework; path = "美测-demo/Plugins/cordova-plugin-meice-camera/MCCamera.framework"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* 美测-demo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "美测-demo-Info.plist"; path = "美测-demo/美测-demo-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = SOURCE_ROOT; };
+		928D134A52C1489E83E92E60 /* finished.mp3 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = finished.mp3; sourceTree = "<group>"; };
+		B3E8D50ADADE48609064C9BE /* mid.mp3 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = mid.mp3; sourceTree = "<group>"; };
+		B6C75DA1DFF64EDF969FF30C /* MCCarmeraUI.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = MCCarmeraUI.swift; path = "cordova-plugin-meice-camera/MCCarmeraUI.swift"; sourceTree = "<group>"; };
+		CEBCC52D06A44CBABDD37D4E /* confirm.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = confirm.png; sourceTree = "<group>"; };
+		E4414263AD9645FAA43E99FE /* init.mp3 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = init.mp3; sourceTree = "<group>"; };
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		F22E1DB096D04B74B351F9E2 /* back.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = back.png; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "美测-demo/config.xml"; sourceTree = "<group>"; };
-		09F0647317344F58A81D1739 /* MCCarmera.swift */ = {isa = PBXFileReference; name = "MCCarmera.swift"; path = "cordova-plugin-meice-camera/MCCarmera.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
-		B6C75DA1DFF64EDF969FF30C /* MCCarmeraUI.swift */ = {isa = PBXFileReference; name = "MCCarmeraUI.swift"; path = "cordova-plugin-meice-camera/MCCarmeraUI.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
-		F22E1DB096D04B74B351F9E2 /* back.png */ = {isa = PBXFileReference; name = "back.png"; path = "back.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		4644C3A34DC246B6BD3AAB6B /* caramera.png */ = {isa = PBXFileReference; name = "caramera.png"; path = "caramera.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		CEBCC52D06A44CBABDD37D4E /* confirm.png */ = {isa = PBXFileReference; name = "confirm.png"; path = "confirm.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		48571642ECD448B29ADC05EE /* next.png */ = {isa = PBXFileReference; name = "next.png"; path = "next.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		FC668ED047544ED891818808 /* reset.png */ = {isa = PBXFileReference; name = "reset.png"; path = "reset.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		E4414263AD9645FAA43E99FE /* init.mp3 */ = {isa = PBXFileReference; name = "init.mp3"; path = "init.mp3"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		6A8B721CD3994C14A18F4235 /* left.mp3 */ = {isa = PBXFileReference; name = "left.mp3"; path = "left.mp3"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		7DA756F0A5AE4A7582305ECE /* right.mp3 */ = {isa = PBXFileReference; name = "right.mp3"; path = "right.mp3"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		B3E8D50ADADE48609064C9BE /* mid.mp3 */ = {isa = PBXFileReference; name = "mid.mp3"; path = "mid.mp3"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		928D134A52C1489E83E92E60 /* finished.mp3 */ = {isa = PBXFileReference; name = "finished.mp3"; path = "finished.mp3"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		829A6BDA0A9E4D20845DF92B /* MCCamera.framework */ = {isa = PBXFileReference; name = "MCCamera.framework"; path = "美测-demo/Plugins/cordova-plugin-meice-camera/MCCamera.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		262AEF40E0604AE2BCB278BE /* MCCameraUI.framework */ = {isa = PBXFileReference; name = "MCCameraUI.framework"; path = "美测-demo/Plugins/cordova-plugin-meice-camera/MCCameraUI.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		FC668ED047544ED891818808 /* reset.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = reset.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -272,6 +269,7 @@
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
 						DevelopmentTeam = L3FUJJYXYC;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -390,6 +388,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = L3FUJJYXYC;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -409,10 +409,12 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				PRODUCT_NAME = "美测-demo";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e";
 			};
 			name = Debug;
 		};
@@ -426,6 +428,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
 				DEVELOPMENT_TEAM = L3FUJJYXYC;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -443,9 +447,11 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				PRODUCT_NAME = "美测-demo";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e";
 			};
 			name = Release;
 		};

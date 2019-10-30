@@ -25,9 +25,9 @@
         <preference name="UseLegacySwiftLanguageVersion" value="true" />
         <preference name="UseSwiftLanguageVersion" value="5.0.0" />
     </platform>
-    <engine name="ios" spec="^4.5.5" />
     <plugin name="cordova-plugin-meice-camera" spec="^1.1.0">
         <variable name="PHOTO_LIBRARY_USAGE_DESCRIPTION" value="使用相册" />
         <variable name="CAMERA_LIBRARY_USAGE_DESCRIPTION" value="使用相机" />
     </plugin>
+    <engine name="ios" spec="^4.5.5" />
 </widget>

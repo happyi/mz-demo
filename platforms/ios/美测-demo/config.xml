@@ -19,6 +19,9 @@
         <param name="ios-package" value="CDVGestureHandler" />
         <param name="onload" value="true" />
     </feature>
+    <feature name="MCCameraSwiftPlugin">
+        <param name="ios-package" value="MCCameraSwiftPlugin" />
+    </feature>
     <name>美测-demo</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
@@ -51,7 +54,4 @@
     <preference name="PaginationMode" value="unpaginated" />
     <preference name="UseLegacySwiftLanguageVersion" value="true" />
     <preference name="UseSwiftLanguageVersion" value="5.0.0" />
-    <feature name="MCCameraSwiftPlugin">
-        <param name="ios-package" value="MCCameraSwiftPlugin" />
-    </feature>
 </widget>

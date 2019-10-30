@@ -6,42 +6,52 @@
             <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
             </head>
     <body style="padding-top:200px;text-align:center">
-        <button onclick="shoot()" style="width:100px;height:100px;line-height:100px">打开相机</button>
-    </body>
+        
+        设备编号 <input style="height:35px;width:150px" id="deviceNumber" type="text" value="MC680-C4C7DF290EF4">
+            
+            <button onclick="shoot()" style="width:100px;height:100px;line-height:100px">打开相机</button>
+            
+            <div style="height: 800px;
+                margin: auto;
+                overflow: scroll;
+                width: 500px;" id="result"></div>
+            </body>
     <script>
         function shoot() {
             
-            var  deviceNumber = "MC680-C4C7DF290EF4";
+            var  deviceNumber = document.getElementById("deviceNumber").value;
             
             var customer ={
-                    "name": "Al",
-                    "phone": "18511111111",
-                    "sex": "0",
-                    "year": "1991",
-                    "month": "11",
-                    "day": "08",
-                    "age": "27",
-                    "extra": "deviceId=MC680-C4C7DF290EF4&custId=402881f167721fe70167ba816f105020",
-                    "unionid": "402881f167721fe70167ba816f105020"
+                "name": "Al",
+                "phone": "18511111111",
+                "sex": "0",
+                "year": "1991",
+                "month": "11",
+                "day": "08",
+                "age": "27",
+                "extra": "deviceId="+deviceNumber+"&custId=402881f167721fe70167ba816f105020",
+                "unionid": "402881f167721fe70167ba816f105020"
             };
-           
+            
             window.MCCamera.shoot(false,deviceNumber,customer,
                                   function(data){
-                                  console.log("js success->customerPicId:"+data.customerPicId+",leftImg:"+data.leftImg+",rightImg:"+data.rightImg)
-                            
+                                  document.getElementById("result").innerHTML = data.customerPicId;
+                                  console.log("js success->customerPicId:"+data.customerPicId+",leftImg:"+data.leftImg+",rightImg:"+data.rightImg);
+                                  
                                   },
                                   function(errMsg){
-                                   console.log(" error: "+errMsg)
+                                  console.log(" error: "+errMsg)
+                                  document.getElementById("result").innerHTML = " error: "+errMsg;
                                   }
                                   
                                   );
         }
     
     
-            function onDeviceReady(){
-                console.log("device ready "+window.MCCamera);
-            }
+    function onDeviceReady(){
+        console.log("device ready "+window.MCCamera);
+    }
     
-            document.addEventListener("deviceready", onDeviceReady, false);//设备初始化完成
+    document.addEventListener("deviceready", onDeviceReady, false);//设备初始化完成
         </script>
 </html>
